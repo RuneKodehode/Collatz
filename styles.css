@@ -18,6 +18,19 @@ input {
   font-size: 1.25rem;
   text-align: center;
 }
+::-webkit-scrollbar {
+  width: 5px;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-track {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar-thumb {
+  width: 3px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
 .box {
   display: flex;
   flex-direction: column;
