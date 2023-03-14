@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   height: 100vh;
   text-align: center;
 }
@@ -32,6 +32,7 @@ input {
   overflow-x: hidden;
 }
 .box {
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
