@@ -27,9 +27,8 @@ document.getElementById("numInput").addEventListener("keydown", (e) => {
       stepshit.innerHTML =
         "Number with highest number of steps =  " +
         i +
-        "!  Number of steps: " +
-        stepstellar +
-        "!";
+        " Number of steps: " +
+        stepstellar;
     }
     steps = 0;
   }
