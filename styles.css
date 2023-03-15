@@ -33,7 +33,9 @@ input {
   background-color: black;
   gap: 2rem;
   display: flex;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
   flex-direction: column;
   justify-content: center;
   align-content: center;
